@@ -506,15 +506,14 @@ h2 {
   text-align: center;
   margin: 0px;
 }
-@media(max-width: 412px){
+@media (max-width: 767px){
   /* Personal page */
 .personalpage {
   margin-top: 140px;
-  width: 100%;
-  margin-left: 100px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+
+  margin-left: 30px;
+ 
+ 
 }
 
 /* for image */
@@ -522,11 +521,11 @@ h2 {
   border: 2px solid black;
   margin-top: 50px;
   box-shadow: 5px 5px 10px;
-  width: 200px;
+  width: 35%;
 }
 
 .personalbio {
-  margin: 0px 0px 0px -100px;
+  margin: 0px 0px 0px -30px;
 }
 
 .personalbio p {
@@ -565,3 +564,61 @@ h2 {
 }
 
   }
+  @media(max-width: 1025px){
+    /* Personal page */
+  .personalpage {
+    margin-top: 140px;
+  
+    margin-left: 30px;
+   
+   
+  }
+  
+  /* for image */
+  .personalphoto img {
+    border: 2px solid black;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px;
+    width: 35%;
+  }
+  
+  .personalbio {
+    margin: 0px 0px 0px -30px;
+  }
+  
+  .personalbio p {
+    margin-top: -8px;
+  }
+  
+  .personalbio h1 {
+    color: #099ad3;
+  }
+  
+  .mainpage {
+    margin-top: -130px;
+    margin-bottom: -20px;
+    overflow: hidden;
+  
+  }
+  
+  .aboutme {
+    margin-top: 150px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+  }
+  
+  .aboutme h1,
+  h2 {
+    color: #099ad3;
+    font-size: 28px;
+  }
+  
+  .aboutme h2 {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  
+    }
